@@ -1,0 +1,46 @@
+{
+  "name": "beverage-cli",
+  "description": "beverage is what you gulp",
+  "keywords": [
+    "gulp",
+    "help",
+    "tasks",
+    "beve",
+    "beverage",
+    "workflow",
+    "command"
+  ],
+  "version": "0.0.5",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gulpsome/beverage-cli.git"
+  },
+  "author": "Orlin M Bozhinov <om@soundsapiens.com>",
+  "bin": {
+    "beve": "bin/beverage.js",
+    "beverage": "bin/beverage.js"
+  },
+  "dependencies": {
+    "ramda": "^0.18.0",
+    "source-map-support": "^0.3.3",
+    "yargs": "^3.29.0"
+  },
+  "devDependencies": {
+    "babel": "^6.0.14",
+    "babel-cli": "^6.0.14",
+    "babel-eslint": "^4.1.3",
+    "babel-preset-es2015-mod": "^6.0.14",
+    "beverage": "0.0.5",
+    "eslint": "^1.8.0",
+    "eslint-config-standard": "^4.4.0",
+    "eslint-plugin-standard": "^1.3.1",
+    "gulp": "^3.9.0",
+    "gulp-npm-test": "0.0.3"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/babel beve.js -o beve.es5.js --source-maps inline",
+    "build:watch": "npm run build -- -w",
+    "test": "node_modules/.bin/gulp"
+  },
+  "license": "Unlicense"
+}

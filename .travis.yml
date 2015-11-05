@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "4.2"
+branches:
+  only:
+    - master
+    - active
+    - test
+install: npm i
+notifications:
+  email:
+    recipients:
+      - om@soundsapiens.com
+    on_success: change
+    on_failure: always
