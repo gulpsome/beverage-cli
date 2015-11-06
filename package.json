@@ -8,9 +8,10 @@
     "beve",
     "beverage",
     "workflow",
-    "command"
+    "command",
+    "options"
   ],
-  "version": "0.0.5",
+  "version": "0.0.5-1",
   "repository": {
     "type": "git",
     "url": "git@github.com:gulpsome/beverage-cli.git"
@@ -20,6 +21,7 @@
     "beve": "bin/beverage.js",
     "beverage": "bin/beverage.js"
   },
+  "preferGlobal": true,
   "dependencies": {
     "ramda": "^0.18.0",
     "source-map-support": "^0.3.3",
@@ -40,7 +42,8 @@
   "scripts": {
     "build": "node_modules/.bin/babel beve.js -o beve.es5.js --source-maps inline",
     "build:watch": "npm run build -- -w",
-    "test": "node_modules/.bin/gulp"
+    "test": "node_modules/.bin/gulp",
+    "prepublish": "npm shrinkwrap"
   },
   "license": "Unlicense"
 }

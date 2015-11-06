@@ -17,6 +17,12 @@ let tasks = argv._
 let beverage = argv.o || R.contains('beverage', tasks)
 let help = argv.h || R.contains('help', tasks) || R.isEmpty(tasks)
 
+// if it's juts node + beverage (with neither task nor options given)
+if (process.argv.length <= 2) {
+  console.log('')
+  console.log('Usage: beverage -?')
+}
+
 // *non-beverage-options*
 // not passed on to gulp
 process.argv = R.difference(process.argv,
