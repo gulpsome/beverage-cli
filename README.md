@@ -5,6 +5,10 @@
 ## Why
 
 Makes `gulp` more beverage-friendly.
+Though so far not for many reasons:
+
+1. `gulp help` with `--silent` on, by default is pleasant to look at
+2. `beverage --options` configuration clarity
 
 ## What
 
@@ -13,7 +17,7 @@ Can be used instead of gulp though it wasn't meant for that.
 
 ## Use
 
-[![NPM](https://nodei.co/npm/beverage-cli.png?compact=true)](https://www.npmjs.org/package/beverage-cli)
+[![NPM](https://nodei.co/npm/beverage-cli.png?mini=true)](https://www.npmjs.org/package/beverage-cli)
 
 $ `npm i -g beverage-cli` #install --global
 
