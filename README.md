@@ -13,17 +13,20 @@ Can be used instead of gulp though it wasn't meant for that.
 
 ## Use
 
-$ `npm i -g beverage-cli`
+[![NPM](https://nodei.co/npm/beverage-cli.png?compact=true)](https://www.npmjs.org/package/beverage-cli)
+
+$ `npm i -g beverage-cli` #install --global
 
 $ `beverage`
 
 $ `beve` # same as the above, only shorter
 
-## Dependencies
+$ `beverage -?` # help
 
-[![Dependency Status](https://david-dm.org/gulpsome/beverage-cli.svg)](https://david-dm.org/gulpsome/beverage-cli)
-[![devDependency Status](https://david-dm.org/gulpsome/beverage-cli/dev-status.svg)](https://david-dm.org/gulpsome/beverage-cli#info=devDependencies)
+## Develop [![Dependency Status](https://david-dm.org/gulpsome/beverage-cli.svg)](https://david-dm.org/gulpsome/beverage-cli) [![devDependency Status](https://david-dm.org/gulpsome/beverage-cli/dev-status.svg)](https://david-dm.org/gulpsome/beverage-cli#info=devDependencies)
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![NPM](https://nodei.co/npm/npm-interlink.png?compact=true)](https://www.npmjs.org/package/npm-interlink)
 ## Unlicensed
 
 This is free and unencumbered public domain software.
