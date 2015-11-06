@@ -8,9 +8,10 @@
     "beve",
     "beverage",
     "workflow",
-    "command"
+    "command",
+    "options"
   ],
-  "version": "0.0.5",
+  "version": "0.0.5-1",
   "repository": {
     "type": "git",
     "url": "git@github.com:gulpsome/beverage-cli.git"
