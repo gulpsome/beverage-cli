@@ -41,7 +41,8 @@
   "scripts": {
     "build": "node_modules/.bin/babel beve.js -o beve.es5.js --source-maps inline",
     "build:watch": "npm run build -- -w",
-    "test": "node_modules/.bin/gulp"
+    "test": "node_modules/.bin/gulp",
+    "prepublish": "npm shrinkwrap"
   },
   "license": "Unlicense"
 }
