@@ -1,5 +1,9 @@
 # beverage-cli -- $ beve[rage]
 
+[![version npm](https://img.shields.io/npm/v/beverage-cli.svg?style=flat-square)](https://www.npmjs.com/package/beverage-cli)
+[![dependencies](https://img.shields.io/david/gulpsome/beverage-cli.svg?style=flat-square)](https://david-dm.org/gulpsome/beverage-cli)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
+
 *beverage is what you gulp*
 
 ## Why
