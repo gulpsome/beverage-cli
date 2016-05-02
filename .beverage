@@ -1,5 +1,4 @@
 {
-  "test": {},
   "sourcegate": [{
     "recipe": "eslint",
     "sources": {"extends": ["standard"]}
