@@ -4,6 +4,7 @@
   "keywords": [
     "gulp",
     "help",
+    "gulpfriendly",
     "tasks",
     "beve",
     "beverage",
@@ -23,7 +24,8 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "beverage": "0.0.6",
+    "be-goods": "0.0.8",
+    "beverage": "0.0.8",
     "ramda": "^0.21.0",
     "source-map-support": "^0.4.0",
     "yargs": "^4.6.0"
@@ -37,7 +39,7 @@
     "eslint-plugin-standard": "^1.3.2"
   },
   "scripts": {
-    "build": "node_modules/.bin/babel beve.js -o beve.es5.js --source-maps inline",
+    "build": "node_modules/.bin/babel beve-cli.js -o beve-cli.es5.js --source-maps inline",
     "build:watch": "npm run build -- -w",
     "test": "node_modules/.bin/gulp"
   },
