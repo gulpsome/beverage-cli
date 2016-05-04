@@ -2,4 +2,4 @@
 
 'use strict';
 
-require('../beve.es5.js');
+require('../beve-cli.es5.js');
