@@ -4,6 +4,7 @@
   "keywords": [
     "gulp",
     "help",
+    "gulpfriendly",
     "tasks",
     "beve",
     "beverage",
@@ -23,7 +24,8 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "beverage": "0.0.6",
+    "be-goods": "0.0.7",
+    "beverage": "0.0.7",
     "ramda": "^0.21.0",
     "source-map-support": "^0.4.0",
     "yargs": "^4.6.0"

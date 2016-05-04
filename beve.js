@@ -2,6 +2,16 @@ import R from 'ramda'
 import fs from 'fs'
 import path from 'path'
 import yargs from 'yargs'
+import {isLocal} from 'be-goods'
+
+if (!isLocal('gulp', {strict: true})) {
+  console.error('Gulp insists to be installed locally.')
+  console.error('Preferably a devDependency.')
+  let where = path.normalize(`${process.cwd()}/node_modules/`)
+  console.error(`Not found in ${where}.`)
+  process.exit(1)
+}
+
 let found = false
 const gulp = [
   path.normalize(process.cwd() + '/node_modules/.bin/gulp'),
