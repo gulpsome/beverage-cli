@@ -3,5 +3,5 @@
     "recipe": "eslint",
     "sources": {"extends": ["standard"]}
   }],
-  "causality": ["build", ["beve.js"]]
+  "causality": ["build", ["beve-cli.js"]]
 }

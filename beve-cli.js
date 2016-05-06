@@ -5,10 +5,11 @@ import yargs from 'yargs'
 import {isLocal} from 'be-goods'
 
 if (!isLocal('gulp', {strict: true})) {
-  console.error('Gulp insists to be installed locally.')
-  console.error('Preferably a devDependency.')
   let where = path.normalize(`${process.cwd()}/node_modules/`)
-  console.error(`Not found in ${where}.`)
+  console.error('Gulp insists to be installed locally.')
+  console.error(`It wasn't found in ${where}.`)
+  console.error('Preferably a devDependency, try this:')
+  console.error('npm install gulp --save-dev')
   process.exit(1)
 }
 
