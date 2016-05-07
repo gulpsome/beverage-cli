@@ -25,7 +25,7 @@
   "preferGlobal": true,
   "dependencies": {
     "be-goods": "0.0.8",
-    "beverage": "0.0.9",
+    "beverage": "0.0.8",
     "ramda": "^0.21.0",
     "source-map-support": "^0.4.0",
     "yargs": "^4.6.0"
