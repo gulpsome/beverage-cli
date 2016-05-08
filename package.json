@@ -42,7 +42,7 @@
   "scripts": {
     "build": "node_modules/.bin/babel beve-cli.js -o beve-cli.es5.js --source-maps inline",
     "build:watch": "npm run build -- -w",
-    "test": "node_modules/.bin/gulp"
+    "test": "./bin/beverage.js"
   },
   "license": "Unlicense"
 }
